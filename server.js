@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 const Article = require('./models/articles')
 //import router dr file laen
 const articleRouter = require('./routes/articles')
-// method overwrite
+// method overrride
 const methodOverride = require('method-override')
 // init express 
 const app = express()
